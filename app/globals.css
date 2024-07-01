@@ -17,17 +17,20 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: white;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.shadow-1 {
+  box-shadow: var(--shadow-1);
+}
+
+.shadow-3 {
+  box-shadow: var(--shadow-3);
 }
